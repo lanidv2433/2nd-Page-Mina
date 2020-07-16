@@ -1,24 +1,243 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
+        <scene sceneID="HXd-Ky-43w">
+            <objects>
+                <viewController id="amk-Ai-1P9" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qFi-MY-X6C">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="758"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Home Page" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q5p-9d-uVZ">
+                                <rect key="frame" x="110" y="338" width="154" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="29"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="BAT-5w-FOl"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="pqu-sp-wpM"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="J1Q-2j-sni" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1136" y="-634"/>
+        </scene>
+        <!--Water Reminders-->
+        <scene sceneID="b6f-vS-m9u">
+            <objects>
+                <viewController title="Water Reminders" id="7nG-d9-Mns" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dhO-QC-x2X">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="758"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Water Reminders" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mTr-GL-GxF">
+                                <rect key="frame" x="91" y="303" width="232" height="57"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="29"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="6Y8-NC-nPo"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="hPM-1Y-nig"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vaL-98-dHi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-288" y="-589"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="WAG-Mh-CQo">
+            <objects>
+                <viewController id="j8u-QC-UVE" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="94F-wM-PyS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="758"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Journal" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mqh-K4-jfc">
+                                <rect key="frame" x="149" y="316" width="116" height="55"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="29"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="WpC-FS-DZn"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="qva-Ux-fxy"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Aad-tk-Sxi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1100" y="97.767857142857139"/>
+        </scene>
+        <!--2nd Page-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="2nd Page" id="BYZ-38-t0r" customClass="ViewController" customModule="_nd_Page_Mina" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B9U-Yv-SlB">
+                                <rect key="frame" x="48" y="113" width="278" height="79"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="29"/>
+                                <state key="normal" title="♡ Affirmations"/>
+                                <connections>
+                                    <segue destination="7ur-Zb-HFz" kind="show" id="EpH-3X-jQx"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b8M-Uh-eAb">
+                                <rect key="frame" x="48" y="218" width="278" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="29"/>
+                                <state key="normal" title="🍵 Water Reminder"/>
+                                <connections>
+                                    <segue destination="7nG-d9-Mns" kind="show" id="0EP-zF-vpx"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ShD-G0-CvG">
+                                <rect key="frame" x="48" y="438" width="278" height="74"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="29"/>
+                                <state key="normal" title="zzZ Breaks"/>
+                                <connections>
+                                    <segue destination="Bll-RS-jib" kind="show" id="aH8-XH-AhP"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Juq-WR-7kU">
+                                <rect key="frame" x="48" y="545" width="278" height="81"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="29"/>
+                                <state key="normal" title="☻ About Minä"/>
+                                <connections>
+                                    <segue destination="ztH-7B-b9X" kind="show" id="nU7-Zi-00G"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PSW-Sw-olK">
+                                <rect key="frame" x="48" y="333" width="278" height="82"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="29"/>
+                                <state key="normal" title="📖 Journal"/>
+                                <connections>
+                                    <segue destination="j8u-QC-UVE" kind="show" id="Lfm-Yl-mZ5"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3YG-aP-MdL">
+                                <rect key="frame" x="29" y="697" width="74" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="transarrow"/>
+                                <connections>
+                                    <segue destination="amk-Ai-1P9" kind="show" id="zM3-fv-K44"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.57647058823529407" green="0.81960784313725488" blue="0.90588235294117647" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="tintColor" red="0.57647058823529407" green="0.81960784313725488" blue="0.90588235294117647" alpha="1" colorSpace="calibratedRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="aboutButton" destination="Juq-WR-7kU" id="j0S-Na-7xN"/>
+                        <outlet property="affirmationsButton" destination="B9U-Yv-SlB" id="fC0-1l-XVe"/>
+                        <outlet property="arrowButton" destination="3YG-aP-MdL" id="Qav-V9-BS6"/>
+                        <outlet property="breaksButton" destination="ShD-G0-CvG" id="fL6-zg-4SW"/>
+                        <outlet property="journalButton" destination="PSW-Sw-olK" id="LcR-X7-qUW"/>
+                        <outlet property="waterReminder" destination="b8M-Uh-eAb" id="OFN-yH-464"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-288.80000000000001" y="98.275862068965523"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="vJf-2o-Uw3">
+            <objects>
+                <viewController id="ztH-7B-b9X" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Drp-IJ-YLs">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="758"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="About Mina" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qg5-kD-1ve">
+                                <rect key="frame" x="121" y="329" width="172" height="55"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="29"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="zvG-G7-wLa"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="EYh-97-Xbm"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gGQ-HV-Txu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1100" y="804.91071428571422"/>
+        </scene>
+        <!--Breaks-->
+        <scene sceneID="vfV-4a-ziH">
+            <objects>
+                <viewController title="Breaks" id="Bll-RS-jib" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hJj-Up-cvK">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="758"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Breaks" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KcL-zX-Ugc">
+                                <rect key="frame" x="149" y="321" width="116" height="55"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="29"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="d7X-eB-xv3"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="SbQ-5e-pru"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gCr-3z-2su" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-288" y="818"/>
+        </scene>
+        <!--Affirmations-->
+        <scene sceneID="oCw-74-IgR">
+            <objects>
+                <viewController title="Affirmations" id="7ur-Zb-HFz" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="cfO-2y-IBW">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="758"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Affirmations" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iTx-dy-pLv">
+                                <rect key="frame" x="119" y="195" width="176" height="57"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="29"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="6XK-9o-Sjb"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="c4d-1u-a8A"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FRb-mh-xHo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="497" y="98"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="transarrow" width="600" height="420"/>
+    </resources>
 </document>
